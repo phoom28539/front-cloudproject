@@ -1,0 +1,34 @@
+.box-from{
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+
+.title-signup{
+    margin-top: 2%;
+}
+
+.profile-pic-sign-up{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.bg-color{
+    background-color: #eeebeabb;
+    height: 115vh;
+    
+}
+
+.btn-sub{
+    margin: 1%;
+}
+
+.box-pic{
+    margin: 4%;
+}
+
+.btn-upload{
+    border-width: 1.5px;
+}
