@@ -1,6 +1,7 @@
 .box-from{
     margin-left: 10%;
     margin-top: 2%;
+    margin-right: 10%;
     
 }
 
@@ -17,7 +18,7 @@
 
 .bg-color{
     background-color: #eeebeabb;
-    height: 115vh;
+    height: 107vh;
     
 }
 
@@ -32,3 +33,4 @@
 .btn-upload{
     border-width: 1.5px;
 }
+

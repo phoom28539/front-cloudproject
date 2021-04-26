@@ -16,7 +16,7 @@ function Upload(props) {
                 console.log(response.data)
                 console.log(response)
                 setTimeout(
-                    () => props.setData(response.data),500
+                    () => props.setData(response.data),2000
                 )
                 
                 console.log("set pic success")
@@ -28,7 +28,7 @@ function Upload(props) {
 
     return (
         <>
-            <input type="file" name="file" onChange={(e) => handlefile(e)}></input>
+            <input type="file" name="file" accept="image/*" onChange={(e) => handlefile(e)}></input>
             {/* <button className="btn-upload" onClick={} type="button">Upload</button> */}
         </>
     );
