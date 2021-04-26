@@ -11,7 +11,7 @@ function Upload(props) {
 
         formdata.append('file', file)
 
-        axios.post("http://localhost:3000/location/upload", formdata)
+        axios.post("/location/upload", formdata)
             .then(function (response) {
                 console.log(response.data)
                 console.log(response)

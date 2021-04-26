@@ -16,7 +16,7 @@ function SignUp() {
     const [location,setlocation] = useState('');
     
     function handleclick() {
-        axios.post("http://localhost:3000/location/register", { amountOfCheckIn: Number(CheckIn), location: URL, name: name, picture:profile, address:location })
+        axios.post("/location/register", { amountOfCheckIn: Number(CheckIn), location: URL, name: name, picture:profile, address:location })
             .then(function (response) {
                 alert("success")
                 console.log("post success")
